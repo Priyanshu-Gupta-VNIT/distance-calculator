@@ -33,3 +33,13 @@ The objective of this project was to calculate the minimum driving distance betw
 1. Install required Python libraries:
    ```bash
    pip install googlemaps pandas
+
+2. Replace YOUR_GOOGLE_MAPS_API_KEY with your actual Google Maps API key in the code:
+   ```python
+   API_KEY = "YOUR_GOOGLE_MAPS_API_KEY"  # Replace with your API Key
+
+3. Run the script:
+   ```bash
+   python distance_calculator.py
+  
+4. The results will be printed to the console, and a structured output will be available in the DataFrame.
